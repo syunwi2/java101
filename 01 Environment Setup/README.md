@@ -147,7 +147,7 @@ jdk가 설치된 경로를 추가한다.
 
 ![Untitled](img%20c5449167ef2640808ba7beea05abd7d7/Untitled%2024.png)
 
-> **자바의 압축 파일**
+> ## **자바의 압축 파일**
 > 
 > 
 >  jar파일들은 기본적으로 제공하는 클래스 파일들이다.
@@ -169,7 +169,7 @@ jdk가 설치된 경로를 추가한다.
 > jar + war
 > 
 
-> **API 문서 즐겨찾기 설정**
+> ## **API 문서 즐겨찾기 설정**
 > 
 > 
 > [https://docs.oracle.com/javase/8/docs/api/index.html](https://docs.oracle.com/javase/8/docs/api/index.html)
