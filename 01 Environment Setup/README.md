@@ -1,4 +1,4 @@
-# img
+# 01 Environment Setup
 
 # 1. 자바 설치
 
