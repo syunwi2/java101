@@ -1,4 +1,4 @@
-# 01 환경설정
+# images
 
 # 1. 자바 설치
 
@@ -6,7 +6,7 @@
 
 [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/)
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled.png)
 
 jdk 8을 다운받아 설치한다(오라클 로그인 필요).
 
@@ -14,7 +14,7 @@ jdk는 JAVA SE에 해당한다.
 
 ### 설치 경로 확인
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%201.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%201.png)
 
 C:\Program Files\Java\jdk1.8.0_361\
 
@@ -30,9 +30,9 @@ PATH에는 여러 경로를 ;으로 연결해 추가할 수 있다.
 
 - JAVA_HOME 변수 추가
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%202.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%202.png)
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%203.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%203.png)
 
 - PATH 변수 추가
     
@@ -41,25 +41,25 @@ PATH에는 여러 경로를 ;으로 연결해 추가할 수 있다.
     아래 경로를 시스템 변수 중 PATH에 추가한다.
     
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%204.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%204.png)
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%205.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%205.png)
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%206.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%206.png)
 
 위는 아래와 같다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%207.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%207.png)
 
 명령어 탐색 시간을 줄이기 위해 %JAVA_HOMe%\bin을 최상단으로 이동한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%208.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%208.png)
 
 ### jdk 정상 설치 및 시스템 환경 변수 적용 확인
 
 cmd를 관리자 권한으로 실행한 뒤 아래의 명령어를 입력해 출력을 확인한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%209.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%209.png)
 
 ---
 
@@ -71,29 +71,29 @@ cmd를 관리자 권한으로 실행한 뒤 아래의 명령어를 입력해 출
 
 적절한 곳에 워크스페이스를 생성하고 설치 시 경로를 선택한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2010.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2010.png)
 
 ### 한글 설정
 
 텍스트 인코딩을 UTF-8로 변경한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2011.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2011.png)
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2012.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2012.png)
 
 ### 글씨체 변경
 
 Baisc은 코딩창, Debug는 콘솔창의 글씨체이다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2013.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2013.png)
 
 Edit 버튼을 눌러 해당하는 글씨체를 수정할 수 있다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2014.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2014.png)
 
 ### 개발 환경 최적화
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2015.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2015.png)
 
 이클립스는 JAVA SE뿐만 아니라 Git 개발 등 여러 개발에 최적화된 환경을 제공하므로 필요시 활용한다.
 
@@ -103,39 +103,39 @@ Edit 버튼을 눌러 해당하는 글씨체를 수정할 수 있다.
 
 다른 버전의 jre를 프로젝트에 적용하기 위해서는 아래의 설정이 필요하다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2016.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2016.png)
 
 jre를 추가한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2017.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2017.png)
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2018.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2018.png)
 
 jdk가 설치된 경로를 추가한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2019.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2019.png)
 
 이클립스가 기본으로 제공하는 jre를 삭제한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2020.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2020.png)
 
 적용 후 설정창 종료
 
 ### 프로젝트 생성
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2021.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2021.png)
 
 프로젝트 이름과 jre 버전을 선택한다.
 
 특정 jre 버전을 사용하기 위해서 항목을 선택한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2022.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2022.png)
 
 /src: 소스파일이 저장된다.
 
 /bin: 컴파일된 클래스 파일이 저장된다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2023.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2023.png)
 
 라이브러리 탭에서 .jar파일들을 확인할 수 있다.
 
@@ -145,7 +145,7 @@ jdk가 설치된 경로를 추가한다.
 
 어떤 API가 제공되는지 확인할 수 있는 API 문서를 제공한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2024.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2024.png)
 
 <aside>
 💡 **자바의 압축 파일**
@@ -179,10 +179,10 @@ jar + war
 
 필요 시 북마크나 즐겨찾기하여 참고한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2025.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2025.png)
 
 </aside>
 
 Finish를 눌러 프로젝트 생성을 완료한다.
 
-![Untitled](01%20%E1%84%92%E1%85%AA%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20c5449167ef2640808ba7beea05abd7d7/Untitled%2026.png)
+![Untitled](images%20c5449167ef2640808ba7beea05abd7d7/Untitled%2026.png)
