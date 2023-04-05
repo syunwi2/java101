@@ -1,8 +1,4 @@
-# intro
-
 # 자바 문법
-
----
 
 ## 1. 데이터 종류
 
@@ -79,9 +75,9 @@
 
 ## 12. 함수형 프로그래밍(람다)
 
-# 추가 내용
-
 ---
+
+# 추가 내용
 
 ## 1. workshop
 
@@ -96,3 +92,24 @@
 ### lombok
 
 ### mybatis(JDBC)
+
+---
+
+# 자바 언어를 이용한 프로그램 개발
+
+### 플랫폼(장치)에 따른 3가지 JAVA
+
+- 일반 PC
+    
+    JAVA Standarf Edition (JAVA SE)
+    
+- 서버
+    
+    JAVA Enterprise Edition (JAVA EE)
+    
+- 휴대용
+    
+    JAVA Micro Edition (JAVA ME)
+    
+
+⇒ JAVA SE는 EE와 ME가 개발 가능한 영역에도 사용된다.
