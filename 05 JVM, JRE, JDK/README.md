@@ -2,13 +2,13 @@
 
 # Java Virtual Machine
 
+![Untitled](05%20JVM,%20JRE,%20JDK%20c54e4bcb8a2c4e9ca0083a5e3adc7ee0/Untitled.png)
+
 jdk를 설치하면 사용할 수 있는 소프트웨어로 자체적인 메모리와 연산 기능을 가진 일종의 가상 머신 소프트웨어이다.
 
 **.class(바이트 코드)를 실행**한다.
 
 .class를 실행하기 위해서는 **반드시 JVM**이 있어야 한다.
-
-![Untitled](05%20JVM,%20JRE,%20JDK%20c54e4bcb8a2c4e9ca0083a5e3adc7ee0/Untitled.png)
 
 ## JVM과 의존성
 
@@ -21,13 +21,13 @@ jdk를 설치하면 사용할 수 있는 소프트웨어로 자체적인 메모�
 
 # JRE
 
+![Untitled](05%20JVM,%20JRE,%20JDK%20c54e4bcb8a2c4e9ca0083a5e3adc7ee0/Untitled%201.png)
+
 Java Runtime Environment
 
 .class + JVM
 
 .class를 실행할 수 있는 환경이다.
-
-![Untitled](05%20JVM,%20JRE,%20JDK%20c54e4bcb8a2c4e9ca0083a5e3adc7ee0/Untitled%201.png)
 
 # JDK
 
