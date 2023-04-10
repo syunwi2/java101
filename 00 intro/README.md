@@ -1,3 +1,9 @@
+# 00 intro
+
+# Reference
+
+1. [Think Java](https://greenteapress.com/thinkjava7/html/)
+
 # 자바 문법
 
 ## 1. 데이터 종류
