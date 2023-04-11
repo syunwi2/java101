@@ -126,6 +126,10 @@ public class TestCat {
 
 인스턴스 변수에직접 접근해 초기화하는 방법은 초기화 시점이 아주 늦다.
 
+### [생성자와 스택, 힙](https://www.baeldung.com/java-stack-heap)
+
+![Untitled](14%20Class%20ca2b5f79d38a484b9a473e8156149cec/Untitled%202.png)
+
 ### 기본 생성자
 
 생성자를 명시적으로 정의하지 않으면 자동으로 정의된다.
@@ -158,7 +162,11 @@ public class TestCat {
 
 힙에 생성된 자신의 인스턴스를 참조할 때 사용한다.
 
-인스턴스 변수명과 파라니터 변수명이 동일할 때에는 반드시 사용한다.
+인스턴스 변수명과 파라미터 변수명이 동일할 때에는 반드시 사용한다.
+
+오버로딩 생서자를 호출할 때(생성자에서 다른 생성자 호출 시) 사용한다.
+
+→ 이 때는 생성자의 가장 첫 라인에 호출하며, 다른 위치에서 호출하면 문법 에러이다.
 
 ```java
 public class Cat {
@@ -188,7 +196,7 @@ public class Cat {
 
 # 객체, 클래스, 인스턴스
 
-![Untitled](14%20Class%20ca2b5f79d38a484b9a473e8156149cec/Untitled%202.png)
+![Untitled](14%20Class%20ca2b5f79d38a484b9a473e8156149cec/Untitled%203.png)
 
 - 객체
     

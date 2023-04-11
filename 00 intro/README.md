@@ -2,7 +2,8 @@
 
 # Reference
 
-1. [Think Java](https://greenteapress.com/thinkjava7/html/)
+1. [Think Java 2e (Green Tea Press)](https://greenteapress.com/thinkjava7/html/)
+2. [Java “Back to Basics” Tutorial (Baeldung)](https://www.baeldung.com/java-tutorial)
 
 # 자바 문법
 
