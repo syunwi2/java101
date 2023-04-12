@@ -22,3 +22,16 @@
 3. 자바의 클래스
 4. 프로그래밍 개발 단계
 5. new와 생성자
+### 20230411
+1. UML
+2. 클래스 메서드
+3. Call by Value
+### 20230412
+1. 객체 지향 프로그램의 특징
+2. 접근 지정자
+3. getter, setter
+4. package
+5. import
+6. 상속
+7. static
+8. final

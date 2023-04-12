@@ -89,3 +89,24 @@
 ## 17 Passing the Arguments
 1. Call by value
 2. Call by value reference
+### 18 getter, setter
+1. 객체 지향 프로그램의 특징
+2. 접근 지정자
+3. getter, setter
+### 19 paskage, import
+1. package
+2. import
+3. API
+### 20 Access Modifier
+### 21 Inheritance
+### 22 static
+1. static
+2. static variable
+3. static method
+4. static block
+5. static import
+6. static class
+### 23 final
+1. class
+2. variable
+3. method
