@@ -89,17 +89,22 @@
 ## 17 Passing the Arguments
 1. Call by value
 2. Call by value reference
-### 18 getter, setter
+## 18 getter, setter
 1. 객체 지향 프로그램의 특징
 2. 접근 지정자
 3. getter, setter
-### 19 paskage, import
+## 19 paskage, import
 1. package
 2. import
 3. API
-### 20 Access Modifier
-### 21 Inheritance
-### 22 static
+## 20 Access Modifier
+## 21 Inheritance
+1. 상속
+    - 상속되지 않는 멤버
+2. 메서드 오버라이딩
+    - 오버라이딩이 불가한 것
+    - 오버라이딩에 제한이 있는 것
+## 22 static
 1. static
 2. static variable
 3. static method
@@ -110,3 +115,12 @@
 1. class
 2. variable
 3. method
+## 24 Class Relationships
+1. Has-A(Use-A)
+2. Is-A
+## 25 Polymorphism
+1. 다형성
+2. 업캐스팅
+3. 다운캐스팅
+4. 다형성과 바인딩 시점
+## Object
