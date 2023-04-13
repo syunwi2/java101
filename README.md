@@ -111,7 +111,7 @@
 4. static block
 5. static import
 6. static class
-### 23 final
+## 23 final
 1. class
 2. variable
 3. method
@@ -123,4 +123,4 @@
 2. 업캐스팅
 3. 다운캐스팅
 4. 다형성과 바인딩 시점
-## Object
+## 26 Object
