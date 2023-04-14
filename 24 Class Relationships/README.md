@@ -18,7 +18,7 @@
     
     a relationship between two objects
     
-    ex) ****A Student and a Faculty
+    ex) **A Student and a Faculty**
     
     - Aggregation(a special case of association)
         
@@ -41,7 +41,7 @@
     Common structure and behaviour are used from the specializtion to the generalized class.
     
 
-> ++ [Realization](https://www.geeksforgeeks.org/interfaces-in-java/)
+> + [Realization](https://www.geeksforgeeks.org/interfaces-in-java/)
 > 
 > 
 > ![Untitled](24%20Class%20Relationships%2002546075255442d2ba8ff2a9dfd25381/Untitled%206.png)
