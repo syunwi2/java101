@@ -93,7 +93,7 @@
 1. 객체 지향 프로그램의 특징
 2. 접근 지정자
 3. getter, setter
-## 19 paskage, import
+## 19 package, import
 1. package
 2. import
 3. API
@@ -111,7 +111,7 @@
 4. static block
 5. static import
 6. static class
-### 23 final
+## 23 final
 1. class
 2. variable
 3. method
@@ -142,3 +142,15 @@
     - 람다식
 ## 29 Nested Class
 1. 중첩 클래스
+## 30 Utility API
+1. String
+    - StringBuilder
+    - StringBuffer
+2. Wrapper Class
+3. Date, Calender
+4. BigDecimal
+## 31 Exception Handling
+1. 예외
+2. 예외 처리
+    - 예외 클래스
+    - 예외 터리 방법
