@@ -75,8 +75,8 @@ Set은 수학의 집합을 인터페이스로 구현한 것으로, 합집합, �
 
 ```
 public class HashSet<E> extends AbstractSet<E>
-												implements Serializable, Cloneable, Iterable<E>,
-																	 Collection<E>, Set<E>
+			implements Serializable, Cloneable, Iterable<E>,
+				   Collection<E>, Set<E>
 ```
 
 Hash Table 기반으로 집합을 구현한 인터페이스이다.
@@ -95,8 +95,8 @@ null 요소를 추가할 수 있다.
 
 ```
 public class LinkedHashSet<E> extends HashSet<E>
-															implements Serializable, Cloneable, Iterable<E>,
-																				 Collection<E>, Set<E>
+			      implements Serializable, Cloneable, Iterable<E>,
+			      		 Collection<E>, Set<E>
 ```
 
 요소의 순서가 보장되는 HashSet (extends HashSet)
@@ -136,9 +136,9 @@ public class LinkedHashSet<E> extends HashSet<E>
 
 ```
 public class TreeSet<E> extends AbstractSet<E>
-												implements Serializable, Cloneable, Iterable<E>,
-																	 Collection<E>, NavigableSet<E>, Set<E>,
-																	 SortedSet<E>
+			implements Serializable, Cloneable, Iterable<E>,
+				   Collection<E>, NavigableSet<E>, Set<E>,
+				   SortedSet<E>
 ```
 
 Tree 기반으로 집합을 구현한 인터페이스이다.
@@ -159,8 +159,8 @@ null 요소를 추가할 수 있다.
 
 ```
 public class EnumSet<E> extends AbstractSet<E>
-												implements Serializable, Cloneable, Iterable<E>,
-																	 Collection<E>, Set<E>
+			implements Serializable, Cloneable, Iterable<E>,
+				   Collection<E>, Set<E>
 ```
 
 HashSet보다 빠르다.
@@ -189,8 +189,8 @@ null 요소를 추가할 수 없다.
 
 ```
 public class ArrayList<E> extends AbstractList<E>
-													implements Serializable, Cloneable, Iterable<E>,
-																		 Collection<E>, List<E>, RandomAccess
+			  implements Serializable, Cloneable, Iterable<E>,
+				     Collection<E>, List<E>, RandomAccess
 ```
 
 일반 배열보다 동작이 느리지만 동적 배열의 기능을 사용할 수 있다.
@@ -209,8 +209,8 @@ Vector 클래스 등을 이용한다.
 
 ```
 public class LinkedList<E> extends AbstractSequentialList<E>
-													 implements Serializable, Cloneable, Iterable<E>,
-																		  Collection<E>, Deque<E>, List<E>, Queue<E>
+			   implements Serializable, Cloneable, Iterable<E>,
+				      Collection<E>, Deque<E>, List<E>, Queue<E>
 ```
 
 링크드 리스트 자료구조를 구현한 클래스이다.
@@ -221,8 +221,8 @@ public class LinkedList<E> extends AbstractSequentialList<E>
 
 ```
 public class Vector<E> extends AbstractSequentialList<E>
-											 implements Serializable, Cloneable, Iterable<E>,
-																	Collection<E>, List<E>, RandomAccess
+		       implements Serializable, Cloneable, Iterable<E>,
+				  Collection<E>, List<E>, RandomAccess
 ```
 
 동기화를 보장한다.
@@ -231,8 +231,8 @@ public class Vector<E> extends AbstractSequentialList<E>
 
 ```
 public class Stack<E> extends Vector<E>
-											implements Serializable, Cloneable, Iterable<E>,
-																 Collection<E>, List<E>, RandomAccess
+		      implements Serializable, Cloneable, Iterable<E>,
+				 Collection<E>, List<E>, RandomAccess
 ```
 
 스택 자료 구조를 구현힌 클래스이다.
@@ -378,7 +378,7 @@ thread에서의 동기화를 보장하지 않는다.
 
 ```
 public class Hashtable<K,V> extends Dictionary<K,V>
-														implements Serializable, Cloneable, Map<K,V>
+			    implements Serializable, Cloneable, Map<K,V>
 ```
 
 ![Untitled](32%20Java%20Collections%20Framework%204a6fed5fdb4247ad91745ce319d12d08/Untitled%207.png)
