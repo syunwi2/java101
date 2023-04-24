@@ -153,4 +153,32 @@
 1. 예외
 2. 예외 처리
     - 예외 클래스
-    - 예외 터리 방법
+    - 예외 처리 방법
+## 32 Java Collection Framework
+1. 컬렉션 API
+2. Set
+3. List
+4. Map
+5. 순회
+## 33 Generics
+1. 제네릭
+## 34 JDBC
+## 35 Dao, DTO
+## 36 MyBatis
+## 37 java.util.function
+1. 함수 형태에 따른 패키지 종류
+    - Consumer
+    - Supplier
+    - Function
+    - Operator
+    - Predicate
+## 38 Method Reference
+1. 정적 메서드 참조
+2. 인스턴스 메서드 참조
+3. 파라미터로 전달된 클래스 객체의 인스턴스 메서드 참조
+4. 생성자 참조
+## 39 Stream API
+1. 스트림
+2. 스트림 생성
+3. 중간 처리
+4. 최종 처리
